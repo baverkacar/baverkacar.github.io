@@ -1,21 +1,34 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #e0f0ff; /* light blue background */
+    color: #005792; /* blue text for contrast */
     margin: 0;
     padding: 0;
-    color: #333;
 }
 header, footer {
     background-color: #ffffff;
-    padding: 20px 10%;
+    padding: 20px;
     text-align: center;
 }
-main {
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.description, .contributors, .video, .download {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-h1 {
-    font-size: 3em;
+video {
+    width: 100%;
+    max-width: 600px; /* Responsive video size */
+    display: block;
+    margin: 0 auto;
+}
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #005792;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
