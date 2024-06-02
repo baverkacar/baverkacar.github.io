@@ -6,9 +6,20 @@ body {
     padding: 0;
     text-align: center;
 }
-header, footer {
+header {
     background-color: #ffffff;
     padding: 20px;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-image {
+    width: 50px; /* Resmin genişliği */
+    height: 50px; /* Resmin yüksekliği */
+    border-radius: 50%;
+    margin-right: 20px; /* Resim ve başlık arasındaki boşluk */
 }
 .description, .contributors, .video, .download {
     margin: 20px auto;
