@@ -12,7 +12,10 @@
     </header>
 
     <section class="description">
-        <p>This is a placeholder description for the CTRL-ALT-TAB project, an innovative approach to modern challenges.</p>
+        <p>This project is an application that monitors attacks on an endpoint that will be subjected to a cyber attack and takes preventive measures against them. The logging mechanism works with the help of an IDS (Intrusion Detection System) and provides a user interface to deliver the necessary information to the person who will perform network monitoring.	
+            Logs received from the IDS are parsed into all their parameters and analyzed in detail. You can view information such as the source and destination IP addresses of the attack, the ports involved in the communication attempt, and the severity of the attack through the interface.
+            Our victim machine collects logs through an IDS and converts them into a suitable JSON format to send to the backend. From there, the logs are forwarded to the frontend and displayed on a graphical interface. For testing purposes, we generated specific logs by attacking a self-configured victim Ubuntu machine with a Kali Linux attacker machine. As a result, we obtained the logs from Suricata, the IDS application we used.
+            Frontend made with React and backend made with Golang.</p>
     </section>
 
     <section class="contributors">
